@@ -51,4 +51,5 @@ class ObjectPermissionChecker(_ObjectPermissionChecker):
 
 
 # Use our implementation that reuses the checker for the same user/group
-_guardian_backends.ObjectPermissionChecker = ObjectPermissionChecker
+# FIXME: add an option to remove the override of the object permission checker
+# _guardian_backends.ObjectPermissionChecker = ObjectPermissionChecker
